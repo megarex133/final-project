@@ -1,5 +1,6 @@
-import logo from './assets/Logo.svg';
+import logo from '../assets/Logo.svg';
 import Nav from './Nav';
+import './styles/Footer.css'
 function Footer() {
     return (
         <footer>

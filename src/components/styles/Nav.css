@@ -1,0 +1,11 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

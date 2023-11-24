@@ -1,0 +1,9 @@
+section.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    gap: 50px;
+}
+img.restaurantPhoto{
+    width: 500px;
+}
