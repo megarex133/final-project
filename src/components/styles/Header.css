@@ -2,4 +2,5 @@ header{
     display: grid;
     grid-template-columns: 30% 70%;
     justify-content: center;
+    padding: 20px 250px 20px 250px;
 }

@@ -1,9 +1,6 @@
-body{
-    padding:3vh 18vw 3vh 18vw;
-    display: grid;
-    grid-template-areas: "head"
-                         "main"
-                         "footer";
-    row-gap: 3vh;
+.root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    
 }

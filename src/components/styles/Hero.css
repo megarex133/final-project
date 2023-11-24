@@ -1,9 +1,14 @@
 section.hero{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px 20px 0px;
     gap: 50px;
+    padding: 40px 250px 40px 250px;
+    background-color: #495E57;
+    color:#fff;
 }
 img.restaurantPhoto{
     width: 500px;
+}
+p{
+    margin-bottom: 35px;
 }

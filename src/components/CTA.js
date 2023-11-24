@@ -2,7 +2,7 @@ import './styles/CTA.css';
 import { Link } from 'react-router-dom';
 function CTA(props) {
     return (
-        <button><Link to={props.link}>{props.name}</Link></button>
+        <Link to={props.link}><button>{props.name}</button></Link>
     )
 }
 

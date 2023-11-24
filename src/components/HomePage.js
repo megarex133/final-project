@@ -7,7 +7,6 @@ import About from './About';
 function HomePage() {
     return (
         <>
-            <h1>HomePage</h1>
             <Hero />
             <Specials />
             <Testimonials />
