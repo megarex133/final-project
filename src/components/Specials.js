@@ -1,5 +1,6 @@
 import './styles/Specials.css';
 import CTA from './CTA';
+import SpecialItem from './SpecialItem';
 
 function Specials() {
     return (
