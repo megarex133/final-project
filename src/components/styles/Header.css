@@ -1,4 +1,9 @@
 header{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+.header-container{
     display: grid;
     grid-template-columns: 30% 70%;
     justify-content: center;

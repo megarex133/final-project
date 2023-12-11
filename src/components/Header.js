@@ -4,8 +4,10 @@ import './styles/Header.css'
 function Header() {
     return (
         <header>
-            <img src={logo} alt="logo"/>
-            <Nav style="navigation"/>
+            <div className="header-container">
+                <img src={logo} alt="logo"/>
+                <Nav style="navigation"/>
+            </div>
         </header>
     );
 }

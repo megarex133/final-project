@@ -1,0 +1,17 @@
+section.specials{
+    padding: 50px 250px 40px 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.specials-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specials-container{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-between;
+    gap: 3vw;
+}
