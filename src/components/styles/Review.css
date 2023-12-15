@@ -1,0 +1,11 @@
+.review-container{
+    background-color: #fff;
+}
+.review-desc-container{
+    display: flex;
+    justify-content: space-between;
+}
+.review-name{
+    font-size: 1.2em;
+    font-weight: 700;
+}

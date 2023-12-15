@@ -1,0 +1,12 @@
+.starIcon{
+    color: #f4ce14;
+}
+.stars-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-img{
+    width: 200px;
+    height: 200px;
+}
