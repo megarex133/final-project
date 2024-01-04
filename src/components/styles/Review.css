@@ -1,11 +1,23 @@
 .review-container{
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 25px 20px 25px;
 }
 .review-desc-container{
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
 }
 .review-name{
     font-size: 1.2em;
     font-weight: 700;
+}
+.review-img{
+    width: 80px;
+    height: 80px;
+}
+.review-text{
+    margin: 0;
 }
