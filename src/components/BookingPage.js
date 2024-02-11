@@ -1,8 +1,12 @@
 import './styles/BookingPage.css';
+import BookingForm from './BookingForm';
 
 function BookingPage() {
     return (
-        <h1>BookingPage</h1>
+        <div className='booking-container'>
+            <h1 className='booking-h1'>BookingPage</h1>
+            <BookingForm/>
+        </div> 
     );
 }
 

@@ -17,17 +17,17 @@ function Footer() {
             <div className="footer-column">
                 <h3>Contact</h3>
                 <ul>
-                    <li>Address</li>
-                    <li>Phone</li>
-                    <li>Email</li>
+                    <li><b>Address:</b> Lorem ipsum dolor sit amet, consectetur adipiscing</li>
+                    <li><b>Phone:</b> +123456789</li>
+                    <li><b>Email:</b> email@email.com</li>
                 </ul>
             </div>
             <div className="footer-column">
                 <h3>Social Media Links</h3>
                 <div className='icons-container'>
-                    <FontAwesomeIcon icon="fa-brands fa-instagram" size="xl" />
-                    <FontAwesomeIcon icon="fa-brands fa-facebook" size="xl" />
-                    <FontAwesomeIcon icon="fa-brands fa-twitter" size="xl"/>
+                    <a href="https://www.instagram.com/"><FontAwesomeIcon icon="fa-brands fa-instagram" size="xl" /></a>
+                    <a href="https://www.facebook.com/"><FontAwesomeIcon icon="fa-brands fa-facebook" size="xl" /></a>
+                    <a href="https://www.twitter.com/"><FontAwesomeIcon icon="fa-brands fa-twitter" size="xl"/></a>
                 </div>
             </div>
         </footer>

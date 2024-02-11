@@ -3,7 +3,7 @@ import './styles/Menu.css';
 function Menu() {
     return (
         <>
-            <h1>Menu</h1>
+            <h1>Menu is coming soon...</h1>
         </>
     );
 }

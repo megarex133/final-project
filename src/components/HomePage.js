@@ -2,7 +2,6 @@ import './styles/HomePage.css';
 import Hero from './Hero';
 import Specials from './Specials';
 import Testimonials from './Testimonials';
-import About from './About';
 
 function HomePage() {
     return (
@@ -10,7 +9,6 @@ function HomePage() {
             <Hero />
             <Specials />
             <Testimonials />
-            <About/>
         </>
     );
 }

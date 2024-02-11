@@ -13,6 +13,7 @@ a:active{
 }
 .navigation{
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+    gap: 20px;
     align-items: center;
 }
