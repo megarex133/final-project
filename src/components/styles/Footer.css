@@ -10,6 +10,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(4, 25%);
     padding: 20px 250px 20px 250px;
+    column-gap: 30px;
 }
 img{
     align-self: center;

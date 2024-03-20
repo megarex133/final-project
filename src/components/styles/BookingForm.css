@@ -1,5 +1,33 @@
 .booking-form{
     display: grid;
-    max-width: 200px;
     gap: 20px;
+}
+.booking-form input:not([type="submit"]), .booking-form > select{
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #f4ce14;
+    border-radius: 15px;
+}
+.booking-form #occasion{
+    margin-bottom: 20px;
+}
+.booking-form > label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.booking-form input[type="submit"]{
+    background-color: #f4ce14;
+    width: 200px;
+    height: 48px;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-right: auto;
+    margin-left: auto;
+}
+.booking-form input[type="submit"]:hover{
+    background-color: #f6e177;
+    cursor: pointer;
 }

@@ -1,8 +1,6 @@
-.booking-h1{
-    text-align: center;
-}
-.booking-container{
+.confirmBooking-container{
     padding: 100px 250px 100px 250px;
+    height: 50vh;
     background-color: #495E57;
     color:#fff;
     display: flex;
@@ -10,6 +8,6 @@
     justify-content: center;
     align-items: center;
 }
-.booking-container form{
-    width: 50%;
+.confirmBooking-container h2{
+    text-align: center;
 }
