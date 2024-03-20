@@ -24,12 +24,24 @@ function BookingForm(props) {
     }
     function submitForm(event) {
         event.preventDefault();
+        validate();
         if (props.formReady === false || props.formReady === 'null') props.setFormReady(true);
         else if (props.formReady === true) props.setFormReady(false)
     }
+    function validate() {
+        if (props.availabletimes.length == 0) {
+            console.log("invalid");
+            const errorDate = document.querySelector("p.error-date");
+            errorDate.style.display = "block";
+        }
+        else {
+           const errorDate = document.querySelector("p.error-date");
+           errorDate.style.display = "none";  
+        } 
+    }
     useEffect(() => {
     const redirectForm = () => {
-      try {
+        try {
           if (props.submitStatus === true) {
             navigate("/confirmedbooking");
         }
@@ -43,6 +55,7 @@ function BookingForm(props) {
     return (
         <form class="booking-form">
             <label for="res-date">Choose date</label>
+            <p className='error-date'>Please, select a valid date</p>
             <input type="date" onChange={handleChangeDate} id="res-date" />
             <label for="res-time">Choose time</label>
             <select id="res-time" onChange={handleChangeTime}>

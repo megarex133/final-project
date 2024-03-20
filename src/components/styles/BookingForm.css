@@ -31,3 +31,8 @@
     background-color: #f6e177;
     cursor: pointer;
 }
+p.error-date{
+    margin: 0;
+    color: red;
+    display: none;
+}
