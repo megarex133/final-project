@@ -67,7 +67,7 @@ function BookingForm(props) {
             <select id="occasion" onChange={handleChangeOccasion}>
                 {inputOccasion.map((type, key) => <option value={key}>{type}</option>)}
             </select>
-            <input type="submit" value="Make Your reservation" onClick={submitForm}></input>
+            <input type="submit" value="Make Your reservation" araia-label="onClick" onClick={submitForm}></input>
         </form>
     );
 };
